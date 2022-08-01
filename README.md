@@ -4,3 +4,5 @@ Ce dépôt contient mes réflexions concernant le Domain Driven Design et les
 architectures qui lui sont souvent associées, notamment les architectures
 utilisant les principes CQRS (Command Query Responsibility Segregation) et de
 l'Event Sourcing.
+
+[Ressources en ligne](ressources.md)
