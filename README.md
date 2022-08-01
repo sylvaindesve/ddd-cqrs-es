@@ -1,2 +1,6 @@
-# ddd-cqrs-es
-Mes réflexions sur le Domain Driven Design et les architectures CQRS et l'Event Sourcing
+# Domain Driven Design, CQRS et Event Sourcing
+
+Ce dépôt contient mes réflexions concernant le Domain Driven Design et les
+architectures qui lui sont souvent associées, notamment les architectures
+utilisant les principes CQRS (Command Query Responsibility Segregation) et de
+l'Event Sourcing.
