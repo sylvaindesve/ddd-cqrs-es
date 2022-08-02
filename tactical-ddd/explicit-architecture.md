@@ -13,8 +13,13 @@ qui suit ces principes. Dans la même veine, le [code](https://github.com/Vaughn
 qui accompagne le livre [Implementing Domain-Driven Design](https://kalele.io/books/)
 de [Vaughn Vernon](https://vaughnvernon.com/) donne également quelques pistes.
 
-Sur la base des travaux d'Herberto Graca et de Vaughn Vernon, voici une
-proposition personnelle de structuration du code.
+J'ai également consulté les dépôts suivants :
+
+- [ddd-by-examples/event-source-cqrs-sample](https://github.com/ddd-by-examples/event-source-cqrs-sample)
+- [andreschaffer/event-sourcing-cqrs-examples](https://github.com/andreschaffer/event-sourcing-cqrs-examples)
+
+Sur la base des travaux ci-dessus (principalement ceux d'Herberto Graca et de
+Vaughn Vernon), voici une proposition personnelle de structuration du code.
 
 - [commons](#commons)
   - application
@@ -67,7 +72,7 @@ Les différents composants de l'application, c'est-à-dire les Bounded Contexts.
 
 ### Ports
 
-Les ports qui devront être implémenté par des adaptateurs côté infrastructure.
+Les ports qui devront être implémentés par des adaptateurs côté infrastructure.
 
 ### Shared Kernel
 
