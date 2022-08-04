@@ -6,12 +6,15 @@ Le schéma suivant est une vue d'ensemble de l'architecture qu'il décrit.
 
 ![Explicit Architecture](https://docs.google.com/drawings/d/e/2PACX-1vQ5ps72uaZcEJzwnJbPhzUfEeBbN6CJ04j7hl2i3K2HHatNcsoyG2tgX2vnrN5xxDKLp5Jm5bzzmZdv/pub?w=960&h=657)
 
-Comme le précise la petit note en bas à gauche, il faut "tout comprendre mais n'utiliser que ce dont on a besoin.
+Comme le précise la petite note en bas à gauche, il faut "tout comprendre mais n'utiliser que ce dont on a besoin.
 
 Herberto propose également [une application exemple](https://github.com/hgraca/explicit-architecture-php)
 qui suit ces principes. Dans la même veine, le [code](https://github.com/VaughnVernon/IDDD_Samples)
 qui accompagne le livre [Implementing Domain-Driven Design](https://kalele.io/books/)
 de [Vaughn Vernon](https://vaughnvernon.com/) donne également quelques pistes.
+
+L'article d'Uncle Bob sur la [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
+mérite également d'être lu.
 
 J'ai également consulté les dépôts suivants :
 
