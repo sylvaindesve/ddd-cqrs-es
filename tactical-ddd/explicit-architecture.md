@@ -26,17 +26,11 @@ Vaughn Vernon), voici une proposition personnelle de structuration du code.
 
 - [commons](#commons)
   - application
-    - command
-    - query
-    - read
   - domain
 - [core](#core)
   - [components](#components)
     - component 1
       - application
-        - command
-        - query
-        - read
       - domain
     - component 2
     - component 3
@@ -44,8 +38,6 @@ Vaughn Vernon), voici une proposition personnelle de structuration du code.
   - [ports](#ports)
   - [sharedkernel](#shared-kernel)
 - [infrastructure](#infrastructure)
-  - command
-  - query
 - [presentation](#presentation)
   - UI 1
     - core
@@ -72,6 +64,9 @@ Le coeur de l'application réparti en composants, noyau partagé et ports.
 ### Components
 
 Les différents composants de l'application, c'est-à-dire les Bounded Contexts.
+Dans chaque composant on retrouve :
+- la partie **aplication** qui correspond aux Use Cases (cf. [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html))
+- la partie **domain** (ou métier) qui comportent les entités et règles métier
 
 ### Ports
 
@@ -90,4 +85,4 @@ l'infrastructure.
 ## Presentation
 
 La couche de présentation avec une ou plusieurs interfaces utilisateur et tout
-le code associé.
+le code associé. Ce sont les adaptateurs primaires (pilotant).
