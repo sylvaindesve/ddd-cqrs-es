@@ -17,6 +17,7 @@ Les codes sources suivants ont été source d'inspiration :
 - [ddd-by-examples/event-source-cqrs-sample](https://github.com/ddd-by-examples/event-source-cqrs-sample)
 - [andreschaffer/event-sourcing-cqrs-examples](https://github.com/andreschaffer/event-sourcing-cqrs-examples)
 - [stemmlerjs/white-label](https://github.com/stemmlerjs/white-label)
+- [stemmlerjs/ddd-forum](https://github.com/stemmlerjs/ddd-forum)
 
 Voici donc une proposition personnelle de structuration du code pour le
 backend :
