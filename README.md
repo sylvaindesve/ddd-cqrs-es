@@ -11,4 +11,5 @@ l'Event Sourcing.
 
 * Architecture
   * [Explicit Architecture](architecture/explicit-architecture.md)
+  * [Architecture Client-Side](architecture/client-side-architecture.md)
   * [Structuration du code](architecture/structuration-code.md)
