@@ -11,3 +11,4 @@ l'Event Sourcing.
 
 * Architecture
   * [Explicit Architecture](architecture/explicit-architecture.md)
+  * [Structuration du code](architecture/structuration-code.md)
