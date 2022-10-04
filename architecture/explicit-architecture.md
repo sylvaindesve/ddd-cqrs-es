@@ -11,7 +11,7 @@ Comme le précise la petite note en bas à gauche, il faut "tout comprendre mais
 D'autres ressources sur le sujet méritent lecture :
 - l'article d'Uncle Bob sur la [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
 - un article de [Khalil Stemmler](https://khalilstemmler.com/) sur
-  [Clean Node.js Architecture](https://khalilstemmler.com/articles/enterprise-typescript-nodejs/clean-nodejs-architecture/)
+  [Organizing App Logic with the Clean Architecture](https://khalilstemmler.com/articles/software-design-architecture/organizing-app-logic/)
 
 L'illustration ci-dessous de Khalil est un peu plus simple que celle reprise
 plus haut et précise quels *composants* se trouvent dans quelle couche.
