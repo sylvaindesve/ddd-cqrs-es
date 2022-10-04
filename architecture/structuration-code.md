@@ -5,6 +5,9 @@
 Nous souhaitons structurer le code de façon à mettre en évidence les principes
 de l'[Explicit Architecture](./explicit-architecture.md).
 
+Nous souhaitons également que l'architecture de l'application transparesse à la
+lecture de la structure du code [tel que le décrit Uncle Bob](https://blog.cleancoder.com/uncle-bob/2011/09/30/Screaming-Architecture.html).
+
 Les codes sources suivants ont été source d'inspiration :
 - [Explicit Architecture PHP](https://github.com/hgraca/explicit-architecture-php)
   par l'auteur du terme *Explicit Architecture*
@@ -13,6 +16,7 @@ Les codes sources suivants ont été source d'inspiration :
   de [Vaughn Vernon](https://vaughnvernon.com/)
 - [ddd-by-examples/event-source-cqrs-sample](https://github.com/ddd-by-examples/event-source-cqrs-sample)
 - [andreschaffer/event-sourcing-cqrs-examples](https://github.com/andreschaffer/event-sourcing-cqrs-examples)
+- [stemmlerjs/white-label](https://github.com/stemmlerjs/white-label)
 
 Voici donc une proposition personnelle de structuration du code pour le
 backend :
