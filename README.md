@@ -6,3 +6,8 @@ utilisant les principes CQRS (Command Query Responsibility Segregation) et de
 l'Event Sourcing.
 
 [Ressources en ligne](ressources.md)
+
+## Sujets de réflexion
+
+* Architecture
+  * [Explicit Architecture](architecture/explicit-architecture.md)
