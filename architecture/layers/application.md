@@ -118,3 +118,29 @@ classDiagram
     +dispatch(Command command)
   }
 ```
+
+## Use Case
+
+Cette implémentation fait apparaître de manière explicite les Use Cases.
+
+```mermaid
+classDiagram
+  class UseCase~IRequest, IResponse~ {
+    <<interface>>
+    +execute(IRequest request) IResponse
+  }
+
+  class BuyItemRequest {
+    +itemId
+    +quantity
+  }
+
+  class BuyItemResponse {
+    +cartId
+  }
+
+  class BuyItemUseCase {
+    +execute(BuyItemRequest request) BuyItemResponse
+  }
+  UseCase <|-- BuyItemUseCase
+```
