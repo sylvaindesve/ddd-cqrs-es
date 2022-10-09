@@ -4,6 +4,7 @@ if (app) {
   fetch(`http://localhost:3000/api/v1`)
     .then((response) => response.json())
     .then((json) => {
-      app.innerHTML = json.message;
-    });
+      app.innerHTML = (json as { message: string }).message;
+    })
+    .catch((err) => console.error(err));
 }

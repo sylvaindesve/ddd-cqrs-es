@@ -12,6 +12,7 @@
   },
   "scripts": {
     "build": "webpack",
-    "start": "webpack serve --open"
+    "start": "webpack serve --open",
+    "lint": "eslint ./src --ext .ts"
   }
 }

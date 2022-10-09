@@ -1,0 +1,6 @@
+{
+  "eslint.workingDirectories": [
+    "ddd-todo/packages/ddd-todo-client",
+    "ddd-todo/packages/ddd-todo-server"
+  ]
+}
