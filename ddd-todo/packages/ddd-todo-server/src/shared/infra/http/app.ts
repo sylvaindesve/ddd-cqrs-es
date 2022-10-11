@@ -1,14 +1,24 @@
+import bodyParser from "body-parser";
 import cors from "cors";
 import express from "express";
 
-const app = express();
+import { ServiceRegistry } from "../../../ServiceRegistry";
 
-const v1Router = express.Router();
-v1Router.get("/", (request, response) => {
-  return response.json({ message: "ddd-todo v1 API up and running" });
-});
+import { createV1Router } from "./api/v1";
 
-app.use(cors({ origin: "*" }));
+export function createApp(registry: ServiceRegistry) {
+  const app = express();
 
-app.use("/api/v1", v1Router);
-app.listen(3000, () => console.log("Server listening on port 3000"));
+  app.use(bodyParser.json());
+  app.use(bodyParser.urlencoded({ extended: true }));
+  app.use(cors({ origin: "*" }));
+
+  app.use("/api/v1", createV1Router(registry));
+
+  return {
+    app,
+    start: (port: number) => {
+      app.listen(port, () => console.log(`Server listening on port ${port}`));
+    },
+  };
+}
